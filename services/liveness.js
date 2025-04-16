@@ -1,6 +1,7 @@
-function checkLiveness(videoPath) {
-  // Aquí podés implementar con opencv4nodejs
-  return Promise.resolve(true); // simulado
+async function checkLiveness(videoPath) {
+  // Más adelante podés usar opencv4nodejs para parpadeo, rotación, etc.
+  console.log("[LIVENESS] Validación simulada");
+  return true;
 }
 
 module.exports = { checkLiveness };
